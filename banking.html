@@ -31,7 +31,7 @@
                 </div>
                 <div class="bg-gray-700 w-72 rounded-lg p-12">
                     <h1 class="text-xl text-white text-center">withdraw Amount</h1>
-                    <p class="text-center text-white">$<span id="withdraw">00</span> </p>
+                    <p class="text-center text-white">$<span id="withdraw-total">00</span> </p>
                 </div>
                 <div class="bg-gray-400 w-72 rounded-lg p-12">
                     <h1 class="text-xl text-white text-center">Total Balane</h1>
@@ -42,25 +42,25 @@
             <!-- deposit and withdraw input field -->
             <section class="my-20">
                 <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 w-3/4 mx-auto">
-                    <div class="bg-gray-400 p-8 rounded-lg">
+                    <div class="bg-gray-400 p-8 rounded-lg lg:w-3/4 sm:w-2/4">
                         <h3 class="text-3xl text-white mb-4">Your Deposit</h3>
                         <input id="deposit-field" class="w-3/4 px-4 py-3 rounded block" type="text"
                             placeholder="$ Amount  you want to deposit">
                         <button id="btn-deposit"
                             class="bg-emerald-400 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-emerald-600">Deposit</button>
                     </div>
-                    <div class="bg-emerald-400 p-8 rounded-lg">
+                    <div class="bg-emerald-400 p-8 rounded-lg lg:w-3/4 sm:w-2/4">
                         <h3 class="text-3xl text-white mb-4">Your withdraw</h3>
-                        <input id="deposit-field" class="w-3/4 px-4 py-3 rounded block" type="text"
+                        <input id="withdraw-field" class="w-3/4 px-4 py-3 rounded block" type="text"
                             placeholder="$ Amount you want to withdraw">
-                        <button id="btn-deposit"
+                        <button id="btn-withdraw"
                             class="bg-gray-400 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-gray-600">withdraw</button>
                     </div>
                 </div>
             </section>
             <!-- footer -->
             <footer class="bg-gray-200 py-4">
-                <div class="container mx-auto flex items-center justify-center my-3">
+                <div class="container mx-auto flex items-center justify-center m-12">
                     <p class="text-gray-700">© 2023 My Website. All rights reserved.</p>
                 </div>
             </footer>
